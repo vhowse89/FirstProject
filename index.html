@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My first website</title>
+		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=display-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		
+		<div class="container">
+			<div class="intro">
+				<img class="profile-picture" src="images/PadresGame225.png" />
+				<h1 id="my-name">Vincent Howse</h1>
+				<h3>Aspiring Software Engineer</h3>
+				<p>{{Never stop acquiring <strong>Knowledge</strong> and <strong>Skills</strong>}}</p>
+			</div>
+
+			<hr/>
+
+			<div class="about-grid">
+				<div class="i-am">
+					<h3>I am</h3>
+					<ul class="about-list">
+						<li>An Electronics Technician</li>
+						<li>An Automotive and Motorcycle Mechanic</li>
+						<li>Tech Novice</li>
+					</ul>
+				</div>
+				<div class="i-like">
+					<h3>I like to</h3>
+					<ul class="about-list">
+						<li>Learn new things</li>
+						<li>Spend time with my fiancee and kids</li>
+						<li>Play video games and relax</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr/>
+			
+			<div>
+				<h3 class="projects-heading">My Projects</h3>
+				<div class="projects-grid">
+					<div class="project-image-wrapper">
+						<h4>2003 Ford Mustang SVT Cobra</h4>
+						<img class="project-image" src="images/CobraMeatsFront.png"/>
+					</div>
+					<div class="project-image-wrapper">
+					<h4>2009 ZX6R Stunt Build</h4>
+						<img class="project-image" src="images/Kawi1.png"/>
+					</div>	
+					<div class="project-image-wrapper">
+						<h4>F4i Stunt Build</h4>
+						<img class="project-image" src="images/F4i.png"/>
+					</div>	
+					<div class="project-image-wrapper">
+						<h4>2.9 Whipple Crusher Install</h4>
+						<img class="project-image" src="images/29Whip.png"/>
+					</div>	
+				</div>	
+			</div>
+
+			<hr/>
+			
+			<div class="links-and-contact">
+				<div class="links">
+					<h3>Links</h3>  
+					<ul class="links-list">
+						<li>
+							<a href="https://github.com/vhowse89">Github</a>
+						</li>
+						<li>
+							<a href="https://twitter.com">Twitter</a>
+						</li>
+						<li>
+							<a href="https://linkedin.com/in/vincent-howse">Linkedin</a>
+						</li>
+					</ul>
+				</div>
+			
+				<div>
+					<form action="#">
+						<label for="email">
+							<h4>Email</h4>
+							<input type="email" id="email" placeholder="Enter your email" />
+						</label>
+						<label for="message">
+							<h4>Message</h4>
+							<textarea id="message">Your Message</textarea>
+						</label>
+						<div class="submit-button-wrapper">
+							<input id="submit-button" type="submit" value="Send Message" />
+						</div>	
+					</form>
+				</div>			
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
